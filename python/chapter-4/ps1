@@ -1,0 +1,9 @@
+words = {
+    "paani": "water",
+    "ghar": "house",
+    "kitaab": "book"
+}
+
+word = input("Enter the Hindi word you want to look up: ")
+
+print("English meaning:", words[word])

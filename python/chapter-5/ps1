@@ -1,0 +1,14 @@
+# Write a program to find the greatest of four numbers entered by the user.
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+d = float(input("Enter fourth number: "))
+
+if a >= b and a >= c and a >= d:
+    print("The greatest number is:", a)
+elif b >= a and b >= c and b >= d:
+    print("The greatest number is:", b)
+elif c >= a and c >= b and c >= d:
+    print("The greatest number is:", c)
+else:
+    print("The greatest number is:", d)
